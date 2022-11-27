@@ -1,0 +1,117 @@
+// .wrap-circles {
+
+// }
+
+.card{
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 5px;
+    width: 90%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    // height:60vh;
+    // height:fit-content;
+    // background-color: #B5838D;
+    -webkit-box-shadow:2px 4px 10px 1px, rgba(0,0,0,0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+    .progress{
+        height:35%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .progresstext{
+            font-size:10px;
+            // color:#B5838D;
+        }
+    }
+    .itemimg{
+        width: 100%;
+        // background-color: #B5838D;
+        height:65%;
+        img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            // width:90%;
+            // height: fit-content;
+            // // width: 50%;
+            // margin-top: 10px;
+            width:  90%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 5%;
+        }
+    }
+    .donateDiv{
+        // height:50%;
+        .donateButtonCard{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 75%;
+            padding: 15px 32px;
+            border:1px solid #555;
+            border-radius:5px;
+            cursor: pointer;
+            // background-color: #FFCDB2;
+            background-color: white;
+            color: black;
+            font-size: 10px;
+            margin-bottom: 10px;
+            // border:none;
+            //margin: 10px 0px;
+        }
+        .donateButtonCard:hover{
+            transition: 0.2s ease-in-out;
+            background-color: #B5838D;
+            color: white;
+            border:none;
+            border: 1px solid #B5838D;
+        }
+    }
+    .description{
+        height:24%;
+        width: 20vw;
+        min-height:20%;
+        font-size: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        .descriptionCard{
+            font-size: 15px;
+        }
+
+        .raised,.goal{
+            font-size: 12px;
+        }
+    }
+}
+
+
+.circle {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 0.5rem;
+    border-radius: 50%;
+    background: #FFCDB2;
+    overflow: hidden;
+  
+}
+.circle .inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 115px;
+    height: 115px;
+    background: #000;
+    border-radius: 50%;
+    font-size: 1.85em;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.75);
+}

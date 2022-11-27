@@ -1,0 +1,27 @@
+.footer{
+
+    background-color: #FFCDB2;
+    color: #786659;
+    // A16748
+    display: flex;
+    // div{
+    //     text-align: center;
+    // }
+    .about-us{
+        padding-right: 30px;
+        padding-left: 30px;
+        a{
+            display: block;
+            text-decoration: none;
+            margin-bottom: 10px;
+        }
+    }
+    .social-media{
+        flex-grow: 2;
+        a{
+            display: block;
+            text-decoration: none;
+            margin-bottom: 10px;
+        }
+    }
+}

@@ -1,0 +1,108 @@
+.header{
+    display: flex;
+    height:100px;
+    width:100%;
+    background-color: rgb(247, 247, 247);
+    .logo{
+        cursor: pointer;
+        img{
+            padding: 10px;
+            margin-top: 3px;
+        }
+    }
+
+    .search{
+        display:flex;
+        width:70%;
+        margin:0px auto;
+        margin-left: 100px;
+        margin-top:5px;
+        padding-top: 25px;
+
+        input{
+            display:flex;
+            width:70%;
+            border-radius: 20px;
+            border: 1px solid rgb(154, 139, 139);
+            height:50%;
+            font-size: 20px;
+            padding: 0px 10px;
+        }
+        button{
+            display:flex;
+            background-color:white;
+            border: 1px solid rgb(154, 139, 139);
+            margin: 0px 10px;
+            margin-bottom:30px;
+            padding:10px 10px;
+            border-radius:50%;
+            cursor: pointer;
+        }
+        button:hover{
+            color:white;
+            background-color: #B5838D;
+            transition:0.25s ease-in-out;
+        }
+    }
+    .donate{
+        display:flex;
+        background-color:white;
+        border: 1px solid rgb(154, 139, 139);
+        margin: 25px 5px;
+        padding:15px 25px;
+        border-radius:20px;
+        cursor: pointer;
+        justify-content: center;
+    }
+    .donate:hover{
+        color:white;
+        transition:0.3s ease-in-out;
+        background-color: #B5838D;
+    }
+    .listings{
+        display:flex;
+        background-color:white;
+        border: 1px solid rgb(154, 139, 139);
+        margin: 25px 5px;
+        padding:15px 25px;
+        border-radius:20px;
+        cursor: pointer;
+    }
+    .listings:hover{
+        color:white;
+        background-color: #B5838D;
+        transition:0.3s ease-in-out;
+    }
+    .used{
+        display:flex;
+        background-color:white;
+        border: 1px solid rgb(154, 139, 139);
+        margin: 25px 5px;
+        padding:15px 25px;
+        border-radius:5px;
+        cursor: pointer;
+    }
+
+    .used:hover{
+        color:white;
+        background-color: #B5838D;
+        transition:0.3s ease-in-out;
+    }
+    @media screen and (max-width: 800px) {
+        .logo{
+            padding-right:0px;
+            margin-right:0px;
+            img{
+                height:65%;
+                width:65%;
+            }
+            .header{
+                display:flex;
+                flex-direction:row;
+                flex-wrap:wrap;
+            }
+        }
+
+    }
+
+}

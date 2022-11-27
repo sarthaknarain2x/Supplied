@@ -1,0 +1,68 @@
+.listingform{
+    font-family: sans-serif;
+    font-size: 12px;
+    display: flex;
+    background-color: white;
+    .form{
+        text-align: left;
+        font-weight: bolder;
+        width:50%;
+        margin: 0 auto;
+        h1{
+            margin: 15px 0px;
+            color:grey;
+        }
+        input{
+            margin: 25px 0px;
+            display:flex;
+            width:70%;
+            border-radius: 10px;
+            border: 2px solid rgb(154, 139, 139);
+            height:50px;
+            padding:10px 10px;
+            font-size:20px;
+        }
+        button{
+            border-radius: 10px;
+            border: none;
+            background-color: white;
+            border: 1px solid black;
+            height: 50px;
+            width: 75px;
+            padding:10px 5px;
+            margin: 10px 10px;
+            color: black;
+            font-size: 18px;
+            font-family:Arial, Helvetica, sans-serif;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #B5838D; /* Green */
+            color: white;
+            transition: 0.5s ease-in-out;
+        }
+        .clicked{
+            border-radius: 10px;
+            border: none;
+            background-color: #B5838D;
+            border: 1px solid black;
+            height: 50px;
+            width: 75px;
+            padding:10px 5px;
+            margin: 10px 10px;
+            color: white;
+            font-size: 15px;
+            font-family: sans-serif;
+            cursor: pointer;
+        }
+        .clicked:hover{
+            background-color: #B5838D; /* Green */
+            color: white;
+            transition: 0.5s ease-in-out;
+        }
+    }
+
+    .donationCardItem{
+        width:30%;
+    }
+}
